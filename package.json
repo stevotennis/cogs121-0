@@ -1,22 +1,23 @@
 {	
 		"name":	"mywebapp",	
 		"version":	"0.0.1",	
-		"author":	"Chu	Shao",	
+		"author":	"Chu Shao",	
 		"scripts":	{	
-				"start":	"node	app.js"	
+				"start": "node app.js"	
 		},	
 		"dependencies":	{	
-				"express":	"3.x",	
-				"express3-handlebars":	"*",	
-				"mongodb":	"*",	
-				"mongoose":	"*",	
-				"passport":	"*",	
-				"passport-facebook":	"*",	
-				"passport-twitter":	"*",	
-				"superagent":	"0.14.6",	
-				"consolidate":	"0.9.1"	
+				"express": "3.x",	
+				"express3-handlebars": "*",	
+				"mongodb": "*",	
+				"mongoose": "*",	
+				"passport": "*",	
+				"passport-facebook": "*",	
+				"passport-twitter": "*",	
+				"superagent": "0.14.6",	
+				"consolidate": "0.9.1",
+				"dotenv":	"*"		
 		},	
-		"engines":	{	
+		"engines": {	
 				"node":	"0.10.x"	
 		}			
 }	
